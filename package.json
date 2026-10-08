@@ -1,6 +1,6 @@
 {
   "name": "silvi-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Start a Silvi reports app and add, remove and update its connectors.",
   "type": "module",
   "bin": {
