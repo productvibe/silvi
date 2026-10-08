@@ -1,0 +1,138 @@
+/* The app's look: its style, colour and font. Preset f0:
+   Theme Neutral, colour Blue, font System.
+   `silvi apply --preset <code>` writes this file and theme.json whole
+   (cli/lib/preset.mjs); edit it by hand and `apply` keeps your copy.
+   Settings → Appearance overrides the accent and the charts per viewer
+   (app.css `[data-accent]`, `[data-tint]`). */
+
+@theme inline {
+  /* Notion's own stacks (measured on app.notion.com, 2026-09-29): the system
+     face, not a webfont — SF Pro on a Mac, Segoe UI on Windows. */
+  --font-heading: var(--font-sans);
+  --font-sans:
+    ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display",
+    "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif,
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-mono:
+    "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier,
+    monospace;
+}
+
+/* `.slide-paper` is a slide's page (blocks/deck/): always the light palette,
+   as a printed page is, whatever the app's theme. */
+:root,
+.slide-paper {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: rgb(35 131 226);
+  --primary-foreground: rgb(255 255 255);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: rgb(35 131 226 / 57%);
+  --chart-1: oklch(0.87 0.05 250);
+  --chart-2: oklch(0.72 0.09 250);
+  --chart-3: oklch(0.6 0.11 250);
+  --chart-4: oklch(0.49 0.1 250);
+  --chart-5: oklch(0.37 0.08 250);
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: rgb(35 131 226 / 57%);
+  /* Overlay LINES only (a rate drawn over the grey bars). Muted, one hue each,
+     so two or three rates on one chart stay apart where a grey ramp would read
+     as the same series twice. Marks in a plot area are otherwise grey — see
+     product/DESIGN-REPORTS.md §5. */
+  --line-1: oklch(0.82 0.09 0);
+  --line-2: oklch(0.68 0.09 195);
+  --line-3: oklch(0.74 0.11 70);
+  --line-4: oklch(0.66 0.1 285);
+  /* Notion's inline code (red on a warm grey chip) and its code-block and
+     callout ground, rgba(66 35 3 / 0.03) flattened onto white. */
+  --code-inline: rgb(235 87 87);
+  --code-inline-bg: rgb(135 131 120 / 15%);
+  --block: rgb(249 248 247);
+  /* Notion's database-table lines, rgba(42 28 0 / 0.07) on white: a step
+     lighter than --border, since a table draws one in every row and
+     between every column. */
+  --grid: rgb(240 239 237);
+  /* Notion's sidebar and toolbar glyphs: one light grey that does not
+     change when the row is selected or hovered. */
+  --icon: rgb(142 139 134);
+  /* Notion's third text grey: sidebar section labels, the search box's
+     placeholder. And its shortcut chip. */
+  --faint: rgb(161 158 153);
+  --kbd: rgb(42 28 0 / 7%);
+  --kbd-foreground: rgb(142 139 134);
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: rgb(35 131 226);
+  --primary-foreground: rgb(255 255 255);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: rgb(35 131 226 / 57%);
+  --chart-1: oklch(0.87 0.05 250);
+  --chart-2: oklch(0.72 0.09 250);
+  --chart-3: oklch(0.6 0.11 250);
+  --chart-4: oklch(0.49 0.1 250);
+  --chart-5: oklch(0.37 0.08 250);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: rgb(35 131 226 / 57%);
+  /* A step lighter than the light theme's, to carry over a dark ground. */
+  --line-1: oklch(0.86 0.09 0);
+  --line-2: oklch(0.78 0.09 195);
+  --line-3: oklch(0.82 0.11 70);
+  --line-4: oklch(0.76 0.1 285);
+  --code-inline: rgb(255 115 105);
+  --code-inline-bg: rgb(135 131 120 / 15%);
+  --block: rgb(255 255 255 / 3%);
+  --grid: rgb(255 255 255 / 7%);
+  --icon: rgb(255 255 255 / 46%);
+  --faint: rgb(255 255 255 / 28%);
+  --kbd: rgb(255 255 255 / 9%);
+  --kbd-foreground: rgb(255 255 255 / 46%);
+}
+
+/* The active menu row in the colour (--primary, so Settings → Appearance's
+   accent moves it too). */
+[data-slot="sidebar-menu-button"][data-active] {
+  background-color: color-mix(in oklab, var(--primary) 12%, transparent);
+}
+[data-slot="sidebar-menu-button"][data-active] svg {
+  color: var(--primary);
+}

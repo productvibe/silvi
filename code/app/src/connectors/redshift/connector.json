@@ -1,0 +1,31 @@
+{
+  "id": "redshift",
+  "label": "Redshift",
+  "group": "hosted",
+  "packages": { "pg": "^8.21.0" },
+  "devPackages": { "@types/pg": "^8.20.0" },
+  "env": [
+    {
+      "name": "REDSHIFT_HOST",
+      "example": "my-cluster.abc123.eu-north-1.redshift.amazonaws.com",
+      "note": "Cluster endpoint, without the port"
+    },
+    {
+      "name": "REDSHIFT_PORT",
+      "example": "5439",
+      "note": "Port",
+      "default": "5439"
+    },
+    { "name": "REDSHIFT_DB", "example": "analytics", "note": "Database name" },
+    {
+      "name": "REDSHIFT_USER",
+      "example": "reports_reader",
+      "note": "A read-only user"
+    },
+    {
+      "name": "REDSHIFT_PASSWORD",
+      "example": "",
+      "note": "That user's password"
+    }
+  ]
+}

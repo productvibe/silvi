@@ -1,0 +1,18 @@
+# The one ignore file for this repo (app/ has none of its own).
+
+.DS_Store
+node_modules/
+
+# Credentials. `.env.example` is the template and IS committed.
+.env
+.env.*
+!.env.example
+
+# Build output and generated types
+build/
+dist/
+.react-router/
+*.tsbuildinfo
+
+# Machine-local Claude Code permissions
+**/.claude/settings.local.json

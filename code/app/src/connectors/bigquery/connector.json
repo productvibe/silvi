@@ -1,0 +1,24 @@
+{
+  "id": "bigquery",
+  "label": "BigQuery",
+  "group": "hosted",
+  "packages": { "@google-cloud/bigquery": "^9.1.0" },
+  "env": [
+    {
+      "name": "BIGQUERY_PROJECT",
+      "example": "my-project",
+      "note": "Google Cloud project id the queries run (and are billed) in"
+    },
+    {
+      "name": "GOOGLE_APPLICATION_CREDENTIALS",
+      "example": "/path/to/service-account.json",
+      "note": "Path to a service account key file with BigQuery read access"
+    },
+    {
+      "name": "BIGQUERY_LOCATION",
+      "example": "EU",
+      "note": "Dataset location, e.g. EU or US; optional",
+      "default": ""
+    }
+  ]
+}

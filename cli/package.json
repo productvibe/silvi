@@ -1,0 +1,16 @@
+{
+  "name": "silvi-cli",
+  "version": "0.1.0",
+  "description": "Start a Silvi reports app and add, remove and update its connectors.",
+  "type": "module",
+  "bin": {
+    "silvi": "silvi.mjs"
+  },
+  "files": [
+    "silvi.mjs",
+    "lib/"
+  ],
+  "engines": {
+    "node": ">=20.12"
+  }
+}

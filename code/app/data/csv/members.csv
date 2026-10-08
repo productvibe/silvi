@@ -1,0 +1,641 @@
+member_id,joined,age_group,gender,district,field,status
+1,2022-02-06,25-34,Woman,Vesterbro,Engineering,active
+2,2022-02-12,25-34,Woman,Nørrebro,Analytics,active
+3,2022-02-19,25-34,Man,Nørrebro,Finance,active
+4,2022-02-20,18-24,Non-binary,Nørrebro,Marketing,active
+5,2022-02-27,25-34,Woman,Østerbro,Research,active
+6,2022-02-27,25-34,Woman,Vesterbro,Analytics,active
+7,2022-02-28,45-54,Man,Amager,Health,lapsed
+8,2022-03-01,35-44,Man,Amager,Engineering,active
+9,2022-03-05,25-34,Man,Frederiksberg,Analytics,active
+10,2022-03-28,45-54,Woman,Frederiksberg,Engineering,active
+11,2022-04-02,35-44,Man,Vesterbro,Analytics,active
+12,2022-04-05,35-44,Non-binary,Nørrebro,Engineering,active
+13,2022-04-07,35-44,Man,Outside Copenhagen,Engineering,active
+14,2022-04-10,35-44,Man,Nørrebro,Public sector,active
+15,2022-04-17,45-54,Woman,Frederiksberg,Engineering,lapsed
+16,2022-04-22,35-44,Man,Amager,Student,active
+17,2022-05-01,25-34,Man,Nørrebro,Engineering,active
+18,2022-05-05,25-34,Man,Østerbro,Analytics,active
+19,2022-05-05,45-54,Man,Vesterbro,Health,active
+20,2022-05-22,25-34,Man,Valby,Engineering,active
+21,2022-05-30,45-54,Woman,Nørrebro,Public sector,active
+22,2022-05-30,35-44,Man,Nørrebro,Public sector,lapsed
+23,2022-05-30,25-34,Woman,Outside Copenhagen,Public sector,active
+24,2022-06-09,18-24,Man,Østerbro,Student,active
+25,2022-06-10,25-34,Woman,Bispebjerg,Student,active
+26,2022-06-19,45-54,Man,Frederiksberg,Analytics,active
+27,2022-06-23,45-54,Woman,Amager,Marketing,lapsed
+28,2022-07-05,55+,Man,Nørrebro,Student,lapsed
+29,2022-07-08,45-54,Man,Outside Copenhagen,Engineering,lapsed
+30,2022-07-08,35-44,Woman,Valby,Engineering,active
+31,2022-07-10,45-54,Man,Nørrebro,Analytics,active
+32,2022-07-12,25-34,Woman,Vesterbro,Analytics,lapsed
+33,2022-07-14,35-44,Woman,Valby,Student,active
+34,2022-07-15,25-34,Woman,Frederiksberg,Engineering,lapsed
+35,2022-07-27,35-44,Woman,Vesterbro,Engineering,lapsed
+36,2022-08-02,18-24,Man,Vesterbro,Marketing,active
+37,2022-08-08,25-34,Man,Vesterbro,Analytics,active
+38,2022-08-10,35-44,Man,Amager,Student,active
+39,2022-08-24,35-44,Man,Østerbro,Public sector,active
+40,2022-08-30,45-54,Man,Nørrebro,Health,active
+41,2022-09-01,18-24,Man,Vesterbro,Engineering,active
+42,2022-09-03,18-24,Man,Outside Copenhagen,Student,active
+43,2022-09-05,35-44,Man,Nørrebro,Health,active
+44,2022-09-08,35-44,Woman,Outside Copenhagen,Analytics,active
+45,2022-09-10,35-44,Man,Amager,Analytics,active
+46,2022-09-11,55+,Man,Frederiksberg,Engineering,active
+47,2022-09-14,55+,Woman,Frederiksberg,Public sector,active
+48,2022-09-17,25-34,Man,Frederiksberg,Student,lapsed
+49,2022-09-23,35-44,Woman,Bispebjerg,Analytics,active
+50,2022-09-23,25-34,Man,Nørrebro,Engineering,active
+51,2022-09-27,25-34,Woman,Nørrebro,Engineering,lapsed
+52,2022-09-29,45-54,Woman,Vesterbro,Student,active
+53,2022-10-08,35-44,Man,Østerbro,Public sector,active
+54,2022-10-09,35-44,Man,Bispebjerg,Research,active
+55,2022-10-21,25-34,Man,Frederiksberg,Student,active
+56,2022-10-21,25-34,Man,Østerbro,Public sector,active
+57,2022-10-25,25-34,Woman,Østerbro,Student,lapsed
+58,2022-11-03,35-44,Man,Frederiksberg,Analytics,active
+59,2022-11-11,55+,Man,Nørrebro,Engineering,active
+60,2022-11-20,35-44,Woman,Frederiksberg,Marketing,active
+61,2022-11-21,45-54,Man,Frederiksberg,Public sector,active
+62,2022-11-21,35-44,Man,Amager,Health,active
+63,2022-12-05,35-44,Woman,Amager,Student,active
+64,2022-12-05,25-34,Woman,Vesterbro,Engineering,lapsed
+65,2022-12-08,55+,Man,Outside Copenhagen,Finance,active
+66,2022-12-13,45-54,Man,Østerbro,Analytics,active
+67,2022-12-15,35-44,Woman,Vesterbro,Marketing,lapsed
+68,2022-12-19,35-44,Woman,Østerbro,Analytics,active
+69,2022-12-20,35-44,Woman,Vesterbro,Engineering,lapsed
+70,2022-12-24,55+,Man,Amager,Engineering,active
+71,2022-12-24,25-34,Man,Vesterbro,Student,lapsed
+72,2022-12-25,25-34,Man,Vesterbro,Analytics,active
+73,2022-12-25,35-44,Man,Nørrebro,Finance,lapsed
+74,2023-01-01,35-44,Man,Frederiksberg,Finance,active
+75,2023-01-01,35-44,Woman,Valby,Analytics,active
+76,2023-01-03,45-54,Man,Nørrebro,Marketing,active
+77,2023-01-05,25-34,Woman,Nørrebro,Student,active
+78,2023-01-10,35-44,Non-binary,Vesterbro,Student,active
+79,2023-01-10,25-34,Woman,Outside Copenhagen,Analytics,active
+80,2023-01-12,55+,Man,Nørrebro,Analytics,active
+81,2023-01-14,25-34,Man,Vesterbro,Finance,active
+82,2023-01-15,35-44,Woman,Vesterbro,Engineering,active
+83,2023-01-17,18-24,Man,Nørrebro,Finance,active
+84,2023-01-18,25-34,Man,Østerbro,Analytics,lapsed
+85,2023-01-23,45-54,Man,Nørrebro,Marketing,lapsed
+86,2023-01-24,25-34,Woman,Nørrebro,Analytics,active
+87,2023-01-31,25-34,Man,Frederiksberg,Analytics,active
+88,2023-02-02,25-34,Man,Outside Copenhagen,Engineering,lapsed
+89,2023-02-04,55+,Man,Outside Copenhagen,Analytics,lapsed
+90,2023-02-07,18-24,Man,Nørrebro,Analytics,active
+91,2023-02-09,35-44,Woman,Nørrebro,Analytics,lapsed
+92,2023-02-14,25-34,Woman,Vesterbro,Analytics,lapsed
+93,2023-02-20,25-34,Man,Frederiksberg,Finance,lapsed
+94,2023-02-26,35-44,Man,Østerbro,Engineering,active
+95,2023-02-26,35-44,Woman,Amager,Analytics,lapsed
+96,2023-03-03,35-44,Man,Vesterbro,Student,active
+97,2023-03-04,25-34,Man,Valby,Analytics,lapsed
+98,2023-03-04,25-34,Woman,Amager,Analytics,active
+99,2023-03-05,18-24,Man,Amager,Analytics,active
+100,2023-03-08,18-24,Woman,Frederiksberg,Marketing,active
+101,2023-03-09,25-34,Man,Østerbro,Student,lapsed
+102,2023-03-11,25-34,Woman,Nørrebro,Public sector,active
+103,2023-03-13,25-34,Man,Nørrebro,Finance,active
+104,2023-03-22,45-54,Woman,Amager,Analytics,active
+105,2023-03-26,55+,Woman,Valby,Engineering,active
+106,2023-03-26,18-24,Woman,Bispebjerg,Marketing,lapsed
+107,2023-03-26,25-34,Man,Outside Copenhagen,Engineering,active
+108,2023-03-26,25-34,Man,Frederiksberg,Finance,active
+109,2023-03-26,35-44,Woman,Vesterbro,Research,active
+110,2023-03-30,55+,Woman,Amager,Engineering,lapsed
+111,2023-04-07,35-44,Woman,Frederiksberg,Student,active
+112,2023-04-07,35-44,Woman,Valby,Research,active
+113,2023-04-11,55+,Woman,Nørrebro,Public sector,lapsed
+114,2023-04-11,35-44,Man,Nørrebro,Student,lapsed
+115,2023-04-11,45-54,Woman,Østerbro,Engineering,lapsed
+116,2023-04-11,25-34,Man,Bispebjerg,Student,lapsed
+117,2023-04-20,35-44,Woman,Østerbro,Research,active
+118,2023-04-21,18-24,Woman,Valby,Engineering,active
+119,2023-04-21,25-34,Not stated,Outside Copenhagen,Health,active
+120,2023-04-22,25-34,Woman,Frederiksberg,Analytics,lapsed
+121,2023-04-25,45-54,Woman,Nørrebro,Engineering,active
+122,2023-04-25,18-24,Woman,Valby,Student,active
+123,2023-04-26,25-34,Man,Nørrebro,Analytics,active
+124,2023-04-26,35-44,Woman,Valby,Engineering,lapsed
+125,2023-04-29,35-44,Woman,Amager,Analytics,active
+126,2023-05-08,18-24,Man,Vesterbro,Engineering,active
+127,2023-05-12,25-34,Woman,Vesterbro,Research,active
+128,2023-05-12,55+,Woman,Nørrebro,Analytics,active
+129,2023-05-13,35-44,Woman,Østerbro,Analytics,active
+130,2023-05-19,25-34,Man,Østerbro,Analytics,lapsed
+131,2023-05-22,25-34,Woman,Amager,Engineering,lapsed
+132,2023-05-23,25-34,Woman,Outside Copenhagen,Student,lapsed
+133,2023-05-23,35-44,Man,Amager,Health,active
+134,2023-05-24,35-44,Man,Nørrebro,Engineering,active
+135,2023-05-24,25-34,Man,Østerbro,Analytics,active
+136,2023-05-24,25-34,Man,Bispebjerg,Engineering,active
+137,2023-05-26,55+,Man,Frederiksberg,Student,active
+138,2023-05-29,25-34,Man,Valby,Marketing,active
+139,2023-06-14,35-44,Woman,Nørrebro,Student,active
+140,2023-06-15,25-34,Man,Østerbro,Engineering,active
+141,2023-06-17,35-44,Man,Amager,Analytics,lapsed
+142,2023-06-23,25-34,Man,Vesterbro,Research,active
+143,2023-06-26,45-54,Woman,Frederiksberg,Student,active
+144,2023-06-26,25-34,Woman,Østerbro,Public sector,active
+145,2023-06-26,25-34,Man,Amager,Marketing,active
+146,2023-06-28,55+,Woman,Vesterbro,Engineering,active
+147,2023-07-01,45-54,Man,Outside Copenhagen,Analytics,active
+148,2023-07-07,25-34,Woman,Amager,Analytics,active
+149,2023-07-10,45-54,Man,Nørrebro,Student,active
+150,2023-07-13,25-34,Woman,Vesterbro,Finance,active
+151,2023-07-16,18-24,Woman,Østerbro,Student,active
+152,2023-07-17,35-44,Man,Outside Copenhagen,Finance,active
+153,2023-07-18,25-34,Woman,Vesterbro,Engineering,active
+154,2023-07-19,25-34,Woman,Vesterbro,Marketing,active
+155,2023-07-23,25-34,Man,Valby,Analytics,active
+156,2023-07-25,45-54,Woman,Frederiksberg,Public sector,active
+157,2023-07-26,18-24,Woman,Nørrebro,Analytics,active
+158,2023-07-26,25-34,Man,Frederiksberg,Engineering,active
+159,2023-07-26,18-24,Woman,Amager,Analytics,active
+160,2023-07-27,35-44,Man,Østerbro,Student,active
+161,2023-08-01,25-34,Man,Frederiksberg,Health,active
+162,2023-08-04,45-54,Woman,Nørrebro,Public sector,active
+163,2023-08-05,45-54,Man,Østerbro,Marketing,active
+164,2023-08-11,18-24,Man,Amager,Research,active
+165,2023-08-13,25-34,Man,Nørrebro,Research,active
+166,2023-08-16,18-24,Man,Nørrebro,Student,active
+167,2023-08-18,35-44,Woman,Bispebjerg,Public sector,active
+168,2023-08-22,45-54,Man,Vesterbro,Analytics,active
+169,2023-08-28,25-34,Man,Valby,Engineering,active
+170,2023-09-02,45-54,Man,Nørrebro,Engineering,active
+171,2023-09-07,18-24,Man,Nørrebro,Research,lapsed
+172,2023-09-09,35-44,Woman,Frederiksberg,Engineering,active
+173,2023-09-12,25-34,Woman,Vesterbro,Finance,lapsed
+174,2023-09-12,25-34,Man,Valby,Health,active
+175,2023-09-13,18-24,Man,Frederiksberg,Student,active
+176,2023-09-13,55+,Man,Outside Copenhagen,Analytics,active
+177,2023-09-14,45-54,Woman,Vesterbro,Student,active
+178,2023-09-17,35-44,Man,Frederiksberg,Finance,active
+179,2023-09-23,25-34,Woman,Østerbro,Marketing,lapsed
+180,2023-09-26,25-34,Man,Amager,Public sector,active
+181,2023-09-27,25-34,Woman,Østerbro,Student,lapsed
+182,2023-09-27,35-44,Man,Nørrebro,Health,active
+183,2023-09-28,35-44,Man,Østerbro,Marketing,lapsed
+184,2023-09-29,25-34,Woman,Østerbro,Finance,lapsed
+185,2023-10-09,25-34,Man,Outside Copenhagen,Public sector,active
+186,2023-10-14,35-44,Woman,Vesterbro,Marketing,active
+187,2023-10-19,55+,Woman,Frederiksberg,Finance,active
+188,2023-10-22,18-24,Man,Vesterbro,Research,lapsed
+189,2023-10-24,18-24,Man,Østerbro,Analytics,active
+190,2023-10-25,45-54,Man,Vesterbro,Marketing,lapsed
+191,2023-10-28,18-24,Woman,Amager,Analytics,active
+192,2023-11-02,25-34,Woman,Østerbro,Engineering,lapsed
+193,2023-11-03,25-34,Woman,Nørrebro,Student,lapsed
+194,2023-11-05,35-44,Woman,Nørrebro,Analytics,active
+195,2023-11-06,18-24,Man,Bispebjerg,Public sector,lapsed
+196,2023-11-08,25-34,Woman,Vesterbro,Student,lapsed
+197,2023-11-18,25-34,Man,Outside Copenhagen,Student,active
+198,2023-11-18,25-34,Woman,Amager,Public sector,active
+199,2023-11-20,55+,Man,Vesterbro,Research,active
+200,2023-11-22,18-24,Man,Østerbro,Engineering,lapsed
+201,2023-11-25,25-34,Not stated,Frederiksberg,Engineering,active
+202,2023-12-04,45-54,Woman,Outside Copenhagen,Student,active
+203,2023-12-15,35-44,Man,Valby,Analytics,lapsed
+204,2023-12-19,25-34,Woman,Frederiksberg,Marketing,lapsed
+205,2023-12-22,55+,Woman,Outside Copenhagen,Finance,lapsed
+206,2023-12-23,25-34,Man,Nørrebro,Engineering,active
+207,2023-12-24,45-54,Man,Bispebjerg,Marketing,active
+208,2023-12-26,35-44,Man,Nørrebro,Public sector,lapsed
+209,2023-12-26,25-34,Woman,Vesterbro,Engineering,active
+210,2023-12-28,25-34,Man,Nørrebro,Student,active
+211,2024-01-08,35-44,Man,Outside Copenhagen,Student,active
+212,2024-01-09,35-44,Man,Østerbro,Research,active
+213,2024-01-13,35-44,Woman,Frederiksberg,Student,active
+214,2024-01-15,25-34,Woman,Vesterbro,Engineering,active
+215,2024-01-19,25-34,Woman,Nørrebro,Finance,lapsed
+216,2024-01-21,25-34,Man,Nørrebro,Marketing,active
+217,2024-01-21,35-44,Woman,Frederiksberg,Health,lapsed
+218,2024-01-29,35-44,Man,Amager,Student,active
+219,2024-01-31,35-44,Man,Frederiksberg,Analytics,active
+220,2024-02-06,25-34,Man,Østerbro,Analytics,lapsed
+221,2024-02-09,18-24,Woman,Østerbro,Engineering,active
+222,2024-02-09,18-24,Man,Valby,Finance,active
+223,2024-02-11,25-34,Man,Østerbro,Public sector,active
+224,2024-02-11,35-44,Man,Vesterbro,Analytics,lapsed
+225,2024-02-12,25-34,Man,Østerbro,Student,active
+226,2024-02-14,25-34,Woman,Bispebjerg,Research,active
+227,2024-02-14,25-34,Woman,Outside Copenhagen,Research,lapsed
+228,2024-02-15,18-24,Woman,Valby,Finance,active
+229,2024-02-16,25-34,Man,Outside Copenhagen,Analytics,active
+230,2024-02-18,35-44,Man,Frederiksberg,Public sector,lapsed
+231,2024-02-20,18-24,Man,Bispebjerg,Engineering,active
+232,2024-02-21,18-24,Man,Valby,Student,active
+233,2024-02-21,18-24,Man,Outside Copenhagen,Public sector,active
+234,2024-02-24,18-24,Non-binary,Nørrebro,Marketing,active
+235,2024-02-25,35-44,Man,Nørrebro,Engineering,active
+236,2024-02-26,35-44,Woman,Vesterbro,Finance,active
+237,2024-02-29,18-24,Man,Østerbro,Engineering,active
+238,2024-03-01,25-34,Man,Nørrebro,Analytics,active
+239,2024-03-05,45-54,Woman,Frederiksberg,Marketing,active
+240,2024-03-07,55+,Man,Nørrebro,Public sector,lapsed
+241,2024-03-10,45-54,Woman,Østerbro,Engineering,lapsed
+242,2024-03-10,35-44,Woman,Amager,Analytics,active
+243,2024-03-12,55+,Man,Nørrebro,Research,lapsed
+244,2024-03-17,25-34,Man,Frederiksberg,Health,active
+245,2024-03-17,55+,Man,Østerbro,Engineering,active
+246,2024-03-20,25-34,Man,Nørrebro,Health,active
+247,2024-03-24,25-34,Man,Frederiksberg,Analytics,lapsed
+248,2024-03-30,55+,Man,Vesterbro,Finance,active
+249,2024-03-31,45-54,Man,Nørrebro,Engineering,active
+250,2024-04-03,35-44,Man,Nørrebro,Analytics,active
+251,2024-04-04,25-34,Woman,Frederiksberg,Marketing,lapsed
+252,2024-04-15,25-34,Man,Amager,Finance,active
+253,2024-04-20,35-44,Man,Nørrebro,Analytics,active
+254,2024-04-22,35-44,Man,Valby,Engineering,active
+255,2024-04-22,35-44,Man,Bispebjerg,Student,lapsed
+256,2024-04-24,25-34,Woman,Nørrebro,Engineering,active
+257,2024-04-26,35-44,Man,Nørrebro,Student,active
+258,2024-04-27,25-34,Woman,Nørrebro,Engineering,lapsed
+259,2024-05-06,55+,Man,Nørrebro,Student,lapsed
+260,2024-05-08,35-44,Man,Frederiksberg,Engineering,lapsed
+261,2024-05-09,18-24,Woman,Outside Copenhagen,Finance,lapsed
+262,2024-05-09,35-44,Man,Outside Copenhagen,Finance,active
+263,2024-05-10,35-44,Woman,Nørrebro,Marketing,lapsed
+264,2024-05-10,45-54,Man,Nørrebro,Marketing,active
+265,2024-05-10,35-44,Woman,Østerbro,Health,active
+266,2024-05-10,18-24,Man,Amager,Engineering,active
+267,2024-05-10,18-24,Man,Vesterbro,Analytics,active
+268,2024-05-11,55+,Man,Nørrebro,Analytics,active
+269,2024-05-14,25-34,Man,Vesterbro,Engineering,active
+270,2024-05-17,25-34,Man,Nørrebro,Health,active
+271,2024-05-17,35-44,Woman,Bispebjerg,Student,active
+272,2024-05-17,35-44,Woman,Frederiksberg,Research,active
+273,2024-05-19,25-34,Woman,Frederiksberg,Public sector,active
+274,2024-05-22,25-34,Woman,Frederiksberg,Marketing,active
+275,2024-05-24,25-34,Man,Frederiksberg,Analytics,active
+276,2024-06-01,25-34,Man,Frederiksberg,Analytics,active
+277,2024-06-01,25-34,Woman,Bispebjerg,Health,active
+278,2024-06-07,45-54,Man,Amager,Health,lapsed
+279,2024-06-16,25-34,Man,Outside Copenhagen,Analytics,active
+280,2024-06-20,45-54,Man,Østerbro,Research,active
+281,2024-06-23,25-34,Woman,Valby,Marketing,active
+282,2024-06-24,25-34,Man,Vesterbro,Engineering,lapsed
+283,2024-06-25,55+,Man,Valby,Student,lapsed
+284,2024-06-29,55+,Man,Outside Copenhagen,Analytics,active
+285,2024-07-06,35-44,Man,Frederiksberg,Engineering,active
+286,2024-07-09,35-44,Man,Outside Copenhagen,Engineering,active
+287,2024-07-10,45-54,Woman,Bispebjerg,Student,active
+288,2024-07-11,18-24,Man,Vesterbro,Engineering,active
+289,2024-07-13,18-24,Man,Østerbro,Analytics,lapsed
+290,2024-07-15,18-24,Woman,Nørrebro,Finance,active
+291,2024-07-15,45-54,Woman,Vesterbro,Analytics,active
+292,2024-07-21,25-34,Man,Frederiksberg,Finance,lapsed
+293,2024-07-24,55+,Man,Vesterbro,Analytics,active
+294,2024-07-26,25-34,Man,Nørrebro,Analytics,active
+295,2024-07-28,35-44,Woman,Nørrebro,Student,lapsed
+296,2024-07-28,35-44,Woman,Bispebjerg,Analytics,active
+297,2024-08-07,25-34,Woman,Østerbro,Student,active
+298,2024-08-09,25-34,Woman,Vesterbro,Finance,active
+299,2024-08-12,45-54,Woman,Valby,Engineering,active
+300,2024-08-12,45-54,Man,Nørrebro,Health,active
+301,2024-08-14,25-34,Man,Østerbro,Analytics,active
+302,2024-08-18,25-34,Woman,Nørrebro,Public sector,active
+303,2024-08-22,35-44,Woman,Outside Copenhagen,Marketing,active
+304,2024-08-22,45-54,Woman,Amager,Student,active
+305,2024-08-31,25-34,Woman,Outside Copenhagen,Public sector,lapsed
+306,2024-09-03,25-34,Man,Frederiksberg,Analytics,active
+307,2024-09-07,25-34,Man,Frederiksberg,Research,lapsed
+308,2024-09-08,35-44,Woman,Østerbro,Engineering,lapsed
+309,2024-09-09,55+,Woman,Frederiksberg,Health,active
+310,2024-09-11,25-34,Woman,Vesterbro,Analytics,active
+311,2024-09-13,35-44,Woman,Østerbro,Public sector,active
+312,2024-09-14,35-44,Woman,Østerbro,Finance,active
+313,2024-09-14,18-24,Woman,Østerbro,Analytics,active
+314,2024-09-16,18-24,Woman,Frederiksberg,Student,active
+315,2024-09-21,45-54,Man,Amager,Student,active
+316,2024-09-23,25-34,Man,Vesterbro,Public sector,active
+317,2024-09-28,35-44,Woman,Bispebjerg,Public sector,lapsed
+318,2024-09-28,25-34,Not stated,Amager,Engineering,lapsed
+319,2024-10-01,25-34,Woman,Nørrebro,Engineering,active
+320,2024-10-05,18-24,Man,Vesterbro,Marketing,active
+321,2024-10-18,25-34,Man,Valby,Engineering,lapsed
+322,2024-10-22,25-34,Woman,Valby,Analytics,active
+323,2024-10-22,35-44,Man,Østerbro,Engineering,active
+324,2024-10-30,18-24,Woman,Nørrebro,Engineering,lapsed
+325,2024-10-30,25-34,Man,Vesterbro,Student,active
+326,2024-10-30,25-34,Man,Frederiksberg,Health,active
+327,2024-11-01,45-54,Man,Nørrebro,Analytics,active
+328,2024-11-02,45-54,Woman,Bispebjerg,Public sector,lapsed
+329,2024-11-03,18-24,Woman,Frederiksberg,Engineering,active
+330,2024-11-06,35-44,Woman,Amager,Analytics,active
+331,2024-11-07,35-44,Man,Amager,Student,active
+332,2024-11-11,25-34,Woman,Vesterbro,Student,active
+333,2024-11-15,25-34,Woman,Østerbro,Analytics,active
+334,2024-11-16,35-44,Man,Nørrebro,Student,active
+335,2024-11-17,25-34,Man,Frederiksberg,Engineering,active
+336,2024-11-23,35-44,Man,Frederiksberg,Engineering,lapsed
+337,2024-11-23,35-44,Man,Østerbro,Analytics,active
+338,2024-11-24,18-24,Man,Nørrebro,Health,active
+339,2024-11-26,25-34,Man,Nørrebro,Marketing,active
+340,2024-11-27,45-54,Woman,Valby,Research,active
+341,2024-11-28,45-54,Man,Bispebjerg,Analytics,lapsed
+342,2024-12-06,35-44,Woman,Valby,Marketing,active
+343,2024-12-08,25-34,Woman,Nørrebro,Engineering,active
+344,2024-12-10,25-34,Man,Outside Copenhagen,Analytics,lapsed
+345,2024-12-11,18-24,Man,Østerbro,Health,active
+346,2024-12-14,25-34,Non-binary,Amager,Health,active
+347,2024-12-15,35-44,Man,Frederiksberg,Marketing,active
+348,2024-12-18,18-24,Woman,Nørrebro,Research,active
+349,2024-12-20,35-44,Man,Outside Copenhagen,Student,active
+350,2024-12-24,35-44,Woman,Amager,Health,lapsed
+351,2024-12-25,25-34,Man,Bispebjerg,Health,lapsed
+352,2024-12-26,25-34,Woman,Outside Copenhagen,Student,lapsed
+353,2024-12-26,25-34,Not stated,Frederiksberg,Analytics,active
+354,2024-12-27,45-54,Man,Østerbro,Research,active
+355,2024-12-28,25-34,Man,Østerbro,Public sector,active
+356,2025-01-01,45-54,Woman,Vesterbro,Marketing,active
+357,2025-01-02,25-34,Woman,Bispebjerg,Analytics,active
+358,2025-01-04,18-24,Woman,Amager,Marketing,active
+359,2025-01-04,35-44,Woman,Østerbro,Public sector,active
+360,2025-01-08,25-34,Woman,Østerbro,Student,active
+361,2025-01-08,25-34,Man,Amager,Marketing,active
+362,2025-01-11,55+,Man,Amager,Finance,active
+363,2025-01-11,35-44,Man,Nørrebro,Student,active
+364,2025-01-12,25-34,Man,Vesterbro,Analytics,active
+365,2025-01-23,25-34,Man,Frederiksberg,Analytics,active
+366,2025-01-23,25-34,Man,Nørrebro,Student,active
+367,2025-01-23,25-34,Man,Østerbro,Marketing,active
+368,2025-01-27,35-44,Woman,Vesterbro,Health,active
+369,2025-02-01,25-34,Man,Frederiksberg,Analytics,active
+370,2025-02-02,55+,Woman,Nørrebro,Student,lapsed
+371,2025-02-04,35-44,Man,Frederiksberg,Analytics,active
+372,2025-02-09,35-44,Woman,Frederiksberg,Engineering,active
+373,2025-02-11,18-24,Woman,Østerbro,Analytics,active
+374,2025-02-19,18-24,Man,Amager,Analytics,active
+375,2025-02-21,18-24,Woman,Vesterbro,Research,active
+376,2025-03-01,25-34,Man,Frederiksberg,Health,active
+377,2025-03-03,25-34,Man,Outside Copenhagen,Student,active
+378,2025-03-08,45-54,Man,Frederiksberg,Public sector,active
+379,2025-03-09,18-24,Woman,Nørrebro,Research,active
+380,2025-03-10,35-44,Man,Outside Copenhagen,Finance,active
+381,2025-03-12,25-34,Woman,Vesterbro,Engineering,active
+382,2025-03-14,45-54,Man,Frederiksberg,Research,active
+383,2025-03-17,35-44,Woman,Vesterbro,Analytics,active
+384,2025-03-18,25-34,Woman,Nørrebro,Marketing,active
+385,2025-03-22,25-34,Man,Nørrebro,Analytics,active
+386,2025-03-27,25-34,Woman,Amager,Marketing,active
+387,2025-03-31,25-34,Man,Amager,Analytics,lapsed
+388,2025-04-02,35-44,Man,Amager,Student,active
+389,2025-04-03,25-34,Man,Østerbro,Health,active
+390,2025-04-05,25-34,Man,Østerbro,Marketing,active
+391,2025-04-07,45-54,Woman,Bispebjerg,Health,active
+392,2025-04-13,25-34,Woman,Nørrebro,Student,active
+393,2025-04-20,35-44,Man,Vesterbro,Student,active
+394,2025-04-22,25-34,Man,Amager,Analytics,active
+395,2025-04-26,18-24,Man,Nørrebro,Public sector,active
+396,2025-04-27,25-34,Woman,Nørrebro,Analytics,active
+397,2025-04-30,18-24,Man,Vesterbro,Engineering,active
+398,2025-04-30,25-34,Woman,Outside Copenhagen,Engineering,active
+399,2025-05-01,25-34,Man,Amager,Student,active
+400,2025-05-02,35-44,Woman,Østerbro,Public sector,active
+401,2025-05-04,25-34,Man,Outside Copenhagen,Public sector,lapsed
+402,2025-05-04,25-34,Man,Østerbro,Finance,active
+403,2025-05-04,35-44,Man,Vesterbro,Student,active
+404,2025-05-05,35-44,Woman,Nørrebro,Analytics,active
+405,2025-05-07,35-44,Woman,Amager,Research,active
+406,2025-05-07,25-34,Woman,Vesterbro,Student,active
+407,2025-05-13,25-34,Man,Amager,Analytics,active
+408,2025-05-15,25-34,Woman,Frederiksberg,Finance,active
+409,2025-05-25,25-34,Man,Nørrebro,Analytics,active
+410,2025-06-11,35-44,Woman,Vesterbro,Student,active
+411,2025-06-12,25-34,Man,Vesterbro,Research,active
+412,2025-06-12,18-24,Man,Amager,Finance,active
+413,2025-06-12,25-34,Man,Vesterbro,Marketing,active
+414,2025-06-13,25-34,Man,Frederiksberg,Engineering,active
+415,2025-06-14,25-34,Not stated,Frederiksberg,Student,active
+416,2025-06-14,35-44,Woman,Valby,Engineering,active
+417,2025-06-14,35-44,Woman,Frederiksberg,Public sector,active
+418,2025-06-15,55+,Man,Amager,Student,active
+419,2025-06-15,35-44,Non-binary,Østerbro,Health,active
+420,2025-06-16,25-34,Man,Outside Copenhagen,Engineering,active
+421,2025-06-18,18-24,Man,Amager,Analytics,lapsed
+422,2025-06-22,45-54,Man,Frederiksberg,Marketing,active
+423,2025-06-28,35-44,Woman,Østerbro,Student,active
+424,2025-06-30,45-54,Woman,Amager,Health,active
+425,2025-07-04,35-44,Man,Valby,Analytics,active
+426,2025-07-05,18-24,Woman,Frederiksberg,Finance,active
+427,2025-07-07,18-24,Woman,Amager,Research,active
+428,2025-07-11,25-34,Woman,Outside Copenhagen,Engineering,active
+429,2025-07-15,18-24,Man,Amager,Engineering,active
+430,2025-07-16,18-24,Woman,Nørrebro,Analytics,lapsed
+431,2025-07-24,35-44,Woman,Nørrebro,Analytics,active
+432,2025-07-27,55+,Woman,Outside Copenhagen,Engineering,active
+433,2025-08-01,25-34,Woman,Vesterbro,Research,active
+434,2025-08-02,45-54,Woman,Vesterbro,Engineering,active
+435,2025-08-04,25-34,Woman,Vesterbro,Engineering,active
+436,2025-08-05,25-34,Woman,Vesterbro,Analytics,active
+437,2025-08-05,25-34,Man,Vesterbro,Marketing,active
+438,2025-08-06,35-44,Man,Vesterbro,Finance,active
+439,2025-08-08,25-34,Woman,Amager,Engineering,active
+440,2025-08-12,25-34,Man,Amager,Engineering,active
+441,2025-08-15,25-34,Man,Valby,Analytics,active
+442,2025-08-16,35-44,Woman,Amager,Student,active
+443,2025-08-17,35-44,Man,Nørrebro,Analytics,active
+444,2025-08-18,35-44,Woman,Nørrebro,Marketing,lapsed
+445,2025-08-19,25-34,Woman,Valby,Engineering,active
+446,2025-08-20,25-34,Woman,Vesterbro,Analytics,active
+447,2025-08-21,25-34,Man,Nørrebro,Engineering,active
+448,2025-08-23,35-44,Man,Amager,Student,active
+449,2025-08-23,25-34,Man,Nørrebro,Research,active
+450,2025-08-25,25-34,Woman,Nørrebro,Analytics,active
+451,2025-08-25,35-44,Man,Frederiksberg,Analytics,active
+452,2025-08-25,25-34,Non-binary,Frederiksberg,Engineering,active
+453,2025-08-28,25-34,Woman,Frederiksberg,Health,active
+454,2025-08-29,18-24,Man,Nørrebro,Health,active
+455,2025-08-29,25-34,Man,Valby,Finance,active
+456,2025-08-31,35-44,Man,Vesterbro,Analytics,active
+457,2025-09-01,25-34,Man,Amager,Public sector,active
+458,2025-09-03,25-34,Woman,Østerbro,Student,lapsed
+459,2025-09-04,45-54,Man,Østerbro,Analytics,active
+460,2025-09-04,18-24,Woman,Vesterbro,Marketing,active
+461,2025-09-08,35-44,Man,Nørrebro,Public sector,active
+462,2025-09-11,35-44,Woman,Frederiksberg,Engineering,active
+463,2025-09-14,25-34,Man,Frederiksberg,Analytics,active
+464,2025-09-21,25-34,Man,Outside Copenhagen,Public sector,active
+465,2025-09-22,25-34,Man,Outside Copenhagen,Health,active
+466,2025-09-29,25-34,Woman,Østerbro,Analytics,active
+467,2025-10-01,25-34,Woman,Frederiksberg,Public sector,active
+468,2025-10-02,18-24,Man,Østerbro,Public sector,active
+469,2025-10-04,25-34,Man,Amager,Analytics,active
+470,2025-10-06,25-34,Man,Vesterbro,Engineering,active
+471,2025-10-09,55+,Woman,Vesterbro,Health,active
+472,2025-10-10,25-34,Man,Vesterbro,Student,active
+473,2025-10-11,18-24,Man,Valby,Student,lapsed
+474,2025-10-17,45-54,Woman,Bispebjerg,Marketing,lapsed
+475,2025-10-18,45-54,Man,Valby,Engineering,lapsed
+476,2025-10-27,35-44,Non-binary,Østerbro,Analytics,active
+477,2025-10-29,25-34,Woman,Vesterbro,Public sector,active
+478,2025-10-31,35-44,Man,Vesterbro,Student,active
+479,2025-10-31,45-54,Woman,Nørrebro,Research,active
+480,2025-10-31,45-54,Man,Amager,Student,active
+481,2025-11-06,35-44,Woman,Frederiksberg,Student,active
+482,2025-11-08,35-44,Man,Valby,Finance,active
+483,2025-11-08,35-44,Man,Nørrebro,Finance,active
+484,2025-11-11,35-44,Man,Valby,Analytics,active
+485,2025-11-15,45-54,Woman,Frederiksberg,Research,lapsed
+486,2025-11-17,45-54,Man,Østerbro,Student,lapsed
+487,2025-11-18,35-44,Woman,Østerbro,Analytics,lapsed
+488,2025-11-18,45-54,Woman,Vesterbro,Marketing,active
+489,2025-11-20,35-44,Woman,Bispebjerg,Analytics,active
+490,2025-11-23,25-34,Man,Østerbro,Analytics,active
+491,2025-11-23,35-44,Woman,Amager,Health,active
+492,2025-11-24,35-44,Man,Østerbro,Analytics,active
+493,2025-11-27,25-34,Man,Frederiksberg,Analytics,active
+494,2025-11-28,25-34,Man,Nørrebro,Analytics,active
+495,2025-12-01,25-34,Man,Outside Copenhagen,Finance,active
+496,2025-12-02,55+,Man,Nørrebro,Health,active
+497,2025-12-09,18-24,Man,Østerbro,Health,active
+498,2025-12-10,25-34,Woman,Outside Copenhagen,Public sector,active
+499,2025-12-13,25-34,Woman,Østerbro,Analytics,active
+500,2025-12-18,18-24,Woman,Nørrebro,Health,active
+501,2025-12-18,18-24,Woman,Amager,Public sector,lapsed
+502,2025-12-20,35-44,Woman,Nørrebro,Analytics,active
+503,2025-12-23,25-34,Woman,Frederiksberg,Research,active
+504,2025-12-25,45-54,Man,Amager,Engineering,active
+505,2025-12-26,35-44,Man,Nørrebro,Health,active
+506,2025-12-27,25-34,Woman,Nørrebro,Public sector,lapsed
+507,2025-12-28,25-34,Woman,Østerbro,Research,active
+508,2025-12-30,55+,Man,Frederiksberg,Analytics,active
+509,2025-12-31,55+,Man,Valby,Research,active
+510,2026-01-01,35-44,Man,Vesterbro,Public sector,active
+511,2026-01-07,25-34,Man,Vesterbro,Marketing,active
+512,2026-01-11,35-44,Woman,Frederiksberg,Student,active
+513,2026-01-12,25-34,Man,Outside Copenhagen,Analytics,active
+514,2026-01-13,25-34,Man,Amager,Engineering,active
+515,2026-01-28,25-34,Man,Amager,Analytics,lapsed
+516,2026-01-28,25-34,Man,Nørrebro,Finance,active
+517,2026-01-28,35-44,Man,Vesterbro,Analytics,active
+518,2026-01-29,45-54,Man,Nørrebro,Analytics,active
+519,2026-01-31,45-54,Man,Frederiksberg,Analytics,active
+520,2026-02-02,45-54,Man,Nørrebro,Engineering,active
+521,2026-02-03,25-34,Non-binary,Amager,Finance,active
+522,2026-02-06,25-34,Woman,Valby,Engineering,active
+523,2026-02-10,25-34,Man,Outside Copenhagen,Analytics,active
+524,2026-02-11,25-34,Woman,Amager,Engineering,active
+525,2026-02-11,35-44,Man,Vesterbro,Engineering,active
+526,2026-02-12,35-44,Woman,Bispebjerg,Health,active
+527,2026-02-15,45-54,Man,Outside Copenhagen,Student,active
+528,2026-02-17,25-34,Man,Vesterbro,Analytics,active
+529,2026-02-17,35-44,Non-binary,Østerbro,Research,active
+530,2026-02-18,25-34,Man,Østerbro,Finance,active
+531,2026-02-21,25-34,Man,Østerbro,Engineering,active
+532,2026-02-22,45-54,Man,Østerbro,Engineering,active
+533,2026-02-26,35-44,Woman,Vesterbro,Engineering,active
+534,2026-02-26,35-44,Woman,Vesterbro,Student,active
+535,2026-03-01,55+,Woman,Nørrebro,Student,active
+536,2026-03-01,45-54,Woman,Outside Copenhagen,Engineering,active
+537,2026-03-05,45-54,Not stated,Outside Copenhagen,Engineering,active
+538,2026-03-07,25-34,Woman,Bispebjerg,Engineering,active
+539,2026-03-08,25-34,Woman,Nørrebro,Research,active
+540,2026-03-12,55+,Man,Vesterbro,Research,active
+541,2026-03-13,25-34,Woman,Bispebjerg,Public sector,active
+542,2026-03-16,35-44,Woman,Vesterbro,Engineering,active
+543,2026-03-18,45-54,Woman,Nørrebro,Student,active
+544,2026-03-18,18-24,Man,Nørrebro,Analytics,active
+545,2026-03-23,35-44,Woman,Østerbro,Engineering,active
+546,2026-03-27,25-34,Man,Valby,Finance,active
+547,2026-03-27,18-24,Man,Vesterbro,Analytics,active
+548,2026-03-30,35-44,Man,Frederiksberg,Analytics,active
+549,2026-04-02,25-34,Woman,Østerbro,Analytics,active
+550,2026-04-08,35-44,Woman,Nørrebro,Analytics,active
+551,2026-04-11,35-44,Man,Vesterbro,Research,active
+552,2026-04-12,55+,Man,Vesterbro,Analytics,active
+553,2026-04-13,25-34,Woman,Nørrebro,Analytics,active
+554,2026-04-17,45-54,Woman,Nørrebro,Analytics,active
+555,2026-04-17,25-34,Man,Bispebjerg,Public sector,active
+556,2026-04-18,25-34,Woman,Østerbro,Engineering,active
+557,2026-04-18,35-44,Woman,Outside Copenhagen,Engineering,active
+558,2026-04-19,45-54,Not stated,Vesterbro,Student,active
+559,2026-04-20,18-24,Woman,Outside Copenhagen,Engineering,active
+560,2026-04-22,25-34,Man,Outside Copenhagen,Student,active
+561,2026-04-23,45-54,Woman,Vesterbro,Student,active
+562,2026-04-24,25-34,Man,Valby,Student,lapsed
+563,2026-04-26,18-24,Woman,Østerbro,Engineering,active
+564,2026-04-26,35-44,Man,Vesterbro,Analytics,active
+565,2026-04-29,25-34,Woman,Nørrebro,Public sector,active
+566,2026-04-29,18-24,Woman,Østerbro,Finance,active
+567,2026-04-30,45-54,Man,Nørrebro,Finance,active
+568,2026-05-10,25-34,Woman,Amager,Research,lapsed
+569,2026-05-14,25-34,Woman,Outside Copenhagen,Finance,active
+570,2026-05-14,25-34,Woman,Nørrebro,Engineering,active
+571,2026-05-15,35-44,Woman,Amager,Analytics,lapsed
+572,2026-05-16,25-34,Woman,Amager,Marketing,active
+573,2026-05-16,25-34,Man,Nørrebro,Analytics,active
+574,2026-05-18,25-34,Man,Østerbro,Student,active
+575,2026-05-24,35-44,Man,Nørrebro,Engineering,active
+576,2026-05-28,45-54,Not stated,Bispebjerg,Engineering,active
+577,2026-05-29,35-44,Woman,Østerbro,Marketing,active
+578,2026-05-30,35-44,Woman,Outside Copenhagen,Student,lapsed
+579,2026-05-31,25-34,Man,Amager,Student,lapsed
+580,2026-06-01,35-44,Man,Vesterbro,Marketing,lapsed
+581,2026-06-01,35-44,Man,Amager,Marketing,active
+582,2026-06-07,45-54,Woman,Valby,Finance,active
+583,2026-06-09,45-54,Woman,Valby,Analytics,active
+584,2026-06-09,25-34,Man,Frederiksberg,Health,active
+585,2026-06-10,45-54,Man,Frederiksberg,Engineering,active
+586,2026-06-10,35-44,Man,Amager,Analytics,active
+587,2026-06-11,25-34,Woman,Vesterbro,Student,active
+588,2026-06-14,35-44,Woman,Amager,Engineering,lapsed
+589,2026-06-16,35-44,Man,Amager,Public sector,active
+590,2026-06-18,45-54,Woman,Valby,Research,active
+591,2026-06-22,18-24,Woman,Nørrebro,Student,active
+592,2026-06-22,45-54,Woman,Amager,Public sector,active
+593,2026-06-28,25-34,Woman,Amager,Student,active
+594,2026-07-06,45-54,Woman,Østerbro,Analytics,active
+595,2026-07-07,25-34,Woman,Vesterbro,Finance,active
+596,2026-07-08,25-34,Man,Valby,Analytics,active
+597,2026-07-14,45-54,Woman,Valby,Analytics,active
+598,2026-07-20,45-54,Man,Nørrebro,Analytics,active
+599,2026-07-23,25-34,Man,Østerbro,Analytics,active
+600,2026-07-24,18-24,Man,Frederiksberg,Finance,active
+601,2026-07-24,25-34,Woman,Vesterbro,Finance,active
+602,2026-07-24,25-34,Woman,Valby,Analytics,active
+603,2026-07-25,25-34,Woman,Amager,Health,active
+604,2026-07-27,25-34,Man,Outside Copenhagen,Research,lapsed
+605,2026-07-27,25-34,Woman,Outside Copenhagen,Analytics,active
+606,2026-07-29,35-44,Woman,Nørrebro,Research,active
+607,2026-07-30,45-54,Woman,Outside Copenhagen,Analytics,active
+608,2026-07-31,55+,Man,Vesterbro,Health,active
+609,2026-08-02,35-44,Man,Nørrebro,Analytics,active
+610,2026-08-03,25-34,Woman,Frederiksberg,Marketing,lapsed
+611,2026-08-06,25-34,Man,Nørrebro,Public sector,active
+612,2026-08-08,35-44,Woman,Vesterbro,Marketing,active
+613,2026-08-09,45-54,Woman,Nørrebro,Finance,active
+614,2026-08-12,25-34,Man,Frederiksberg,Student,active
+615,2026-08-14,25-34,Woman,Frederiksberg,Analytics,active
+616,2026-08-14,25-34,Man,Frederiksberg,Marketing,active
+617,2026-08-15,25-34,Man,Nørrebro,Student,active
+618,2026-08-18,35-44,Man,Nørrebro,Public sector,active
+619,2026-08-22,25-34,Man,Valby,Engineering,active
+620,2026-08-22,45-54,Man,Nørrebro,Engineering,active
+621,2026-08-24,25-34,Woman,Vesterbro,Analytics,active
+622,2026-08-24,35-44,Woman,Valby,Research,active
+623,2026-08-28,25-34,Man,Nørrebro,Student,active
+624,2026-08-29,45-54,Woman,Vesterbro,Finance,active
+625,2026-08-29,45-54,Man,Valby,Marketing,active
+626,2026-08-31,35-44,Woman,Frederiksberg,Analytics,active
+627,2026-08-31,45-54,Non-binary,Outside Copenhagen,Public sector,active
+628,2026-08-31,25-34,Man,Vesterbro,Student,active
+629,2026-09-02,25-34,Man,Nørrebro,Engineering,active
+630,2026-09-06,35-44,Woman,Frederiksberg,Analytics,active
+631,2026-09-08,18-24,Man,Valby,Research,active
+632,2026-09-11,35-44,Woman,Valby,Marketing,active
+633,2026-09-16,35-44,Man,Nørrebro,Health,active
+634,2026-09-18,25-34,Woman,Østerbro,Finance,active
+635,2026-09-19,35-44,Man,Vesterbro,Student,lapsed
+636,2026-09-22,35-44,Woman,Nørrebro,Student,active
+637,2026-09-23,25-34,Man,Østerbro,Analytics,active
+638,2026-10-02,45-54,Woman,Vesterbro,Engineering,active
+639,2026-10-03,25-34,Woman,Vesterbro,Student,active
+640,2026-10-03,35-44,Man,Vesterbro,Public sector,lapsed

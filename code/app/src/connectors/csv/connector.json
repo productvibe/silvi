@@ -1,0 +1,16 @@
+{
+  "id": "csv",
+  "label": "CSV files",
+  "group": "files",
+  "packages": { "better-sqlite3": "^13.0.3", "csv-parse": "^7.0.3" },
+  "devPackages": { "@types/better-sqlite3": "^9.6.0" },
+  "data": ["data/csv/events.csv", "data/csv/members.csv", "data/csv/website_visits.csv"],
+  "env": [
+    {
+      "name": "CSV_DIR",
+      "example": "data/csv",
+      "note": "Folder of .csv files, from app/; each file is a table",
+      "default": "data/csv"
+    }
+  ]
+}

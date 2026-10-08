@@ -1,0 +1,15 @@
+{
+  "id": "sqlite",
+  "label": "SQLite",
+  "group": "local",
+  "packages": { "better-sqlite3": "^13.0.3" },
+  "devPackages": { "@types/better-sqlite3": "^9.6.0" },
+  "env": [
+    {
+      "name": "SQLITE_PATH",
+      "example": "data/app.sqlite",
+      "note": "The database file, from app/; opened read-only",
+      "default": "data/app.sqlite"
+    }
+  ]
+}

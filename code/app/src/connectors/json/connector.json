@@ -1,0 +1,16 @@
+{
+  "id": "json",
+  "label": "JSON files",
+  "group": "files",
+  "packages": { "better-sqlite3": "^13.0.3" },
+  "devPackages": { "@types/better-sqlite3": "^9.6.0" },
+  "data": ["data/json/sales.json"],
+  "env": [
+    {
+      "name": "JSON_DIR",
+      "example": "data/json",
+      "note": "Folder of .json files, from app/; each file (an array of objects) is a table",
+      "default": "data/json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "mysql",
+  "label": "MySQL",
+  "group": "hosted",
+  "packages": { "mysql2": "^3.24.5" },
+  "env": [
+    {
+      "name": "MYSQL_URL",
+      "example": "mysql://user:password@host:3306/db",
+      "note": "Connection string"
+    }
+  ]
+}

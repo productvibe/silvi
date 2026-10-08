@@ -1,0 +1,9 @@
+{
+  "id": "reports",
+  "title": "Reports",
+  "block": "reports",
+  "icon": "chart",
+  "folder": "app/src/reports/",
+  "order": 10,
+  "purpose": "Your reports: each a page of figures read live from your database."
+}

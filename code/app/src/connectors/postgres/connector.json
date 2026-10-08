@@ -1,0 +1,14 @@
+{
+  "id": "postgres",
+  "label": "Postgres",
+  "group": "hosted",
+  "packages": { "pg": "^8.21.0" },
+  "devPackages": { "@types/pg": "^8.20.0" },
+  "env": [
+    {
+      "name": "POSTGRES_URL",
+      "example": "postgres://user:password@host:5432/db",
+      "note": "Connection string"
+    }
+  ]
+}

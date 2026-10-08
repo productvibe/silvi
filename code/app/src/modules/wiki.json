@@ -1,0 +1,9 @@
+{
+  "id": "wiki",
+  "title": "Wiki",
+  "block": "pages",
+  "icon": "book",
+  "folder": "app/wiki/",
+  "order": 20,
+  "purpose": "What you learn: how your reports work, kept as pages."
+}

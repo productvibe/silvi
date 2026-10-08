@@ -1,0 +1,68 @@
+event_id,event,date,venue,format,capacity,registered,attended
+1,Workshop: LLMs for analysts,2024-11-14,Østerbro community house,Workshop,30,25,18
+2,Online: Visualising bike traffic,2024-11-15,Online,Online,300,188,78
+3,Talk: dbt in practice,2024-11-20,Amager culture house,Talk,80,49,34
+4,Workshop: Visualising bike traffic,2024-12-03,Østerbro community house,Workshop,30,25,19
+5,Workshop: Career night,2024-12-22,Østerbro community house,Workshop,30,26,25
+6,Talk: Geospatial data of Copenhagen,2025-01-19,Nørrebro Library hall,Talk,80,77,48
+7,Meetup: Geospatial data of Copenhagen,2025-01-19,Vesterbro co-working space,Meetup,120,110,74
+8,Online: Data quality checks,2025-02-07,Online,Online,300,287,123
+9,Talk: Machine learning in production,2025-02-16,Amager culture house,Talk,80,70,48
+10,Workshop: Machine learning in production,2025-02-24,Frederiksberg study room,Workshop,30,28,21
+11,Talk: Forecasting with Python,2025-02-25,Amager culture house,Talk,80,66,48
+12,Talk: Forecasting with Python,2025-03-21,Amager culture house,Talk,80,69,53
+13,Meetup: Open data from the municipality,2025-03-26,Vesterbro co-working space,Meetup,120,106,77
+14,Talk: Geospatial data of Copenhagen,2025-04-07,Nørrebro Library hall,Talk,80,74,52
+15,Online: Machine learning in production,2025-04-24,Online,Online,300,285,118
+16,Talk: SQL window functions,2025-04-24,Nørrebro Library hall,Talk,80,66,49
+17,Online: Intro to DuckDB,2025-05-13,Online,Online,300,293,136
+18,Workshop: Forecasting with Python,2025-05-14,Østerbro community house,Workshop,30,25,24
+19,Online: Visualising bike traffic,2025-05-14,Online,Online,300,275,149
+20,Workshop: Data quality checks,2025-06-06,Østerbro community house,Workshop,30,23,18
+21,Talk: Statistics refresher,2025-06-11,Nørrebro Library hall,Talk,80,54,37
+22,Workshop: Dashboards that people read,2025-07-04,Frederiksberg study room,Workshop,30,30,25
+23,Online: Career night,2025-07-14,Online,Online,300,263,126
+24,Meetup: LLMs for analysts,2025-07-16,Vesterbro co-working space,Meetup,120,120,87
+25,Meetup: Statistics refresher,2025-08-02,Nørrebro Library hall,Meetup,120,117,78
+26,Meetup: Data storytelling,2025-08-08,Vesterbro co-working space,Meetup,120,119,70
+27,Online: Power BI vs Tableau,2025-09-05,Online,Online,300,232,111
+28,Online: Open data from the municipality,2025-09-11,Online,Online,300,228,96
+29,Online: Cleaning messy CSVs,2025-09-24,Online,Online,300,239,97
+30,Talk: LLMs for analysts,2025-10-07,Nørrebro Library hall,Talk,80,72,46
+31,Workshop: Geospatial data of Copenhagen,2025-10-21,Østerbro community house,Workshop,30,30,29
+32,Meetup: Forecasting with Python,2025-10-26,Vesterbro co-working space,Meetup,120,118,90
+33,Workshop: SQL window functions,2025-11-08,Østerbro community house,Workshop,30,30,25
+34,Talk: SQL window functions,2025-11-08,Nørrebro Library hall,Talk,80,78,64
+35,Talk: Data quality checks,2025-11-13,Amager culture house,Talk,80,62,38
+36,Talk: Statistics refresher,2025-11-17,Nørrebro Library hall,Talk,80,69,52
+37,Workshop: Career night,2025-12-15,Frederiksberg study room,Workshop,30,30,25
+38,Meetup: Geospatial data of Copenhagen,2025-12-23,Vesterbro co-working space,Meetup,120,97,62
+39,Online: A/B testing pitfalls,2025-12-25,Online,Online,300,300,155
+40,Talk: SQL window functions,2026-01-06,Amager culture house,Talk,80,80,49
+41,Workshop: Data ethics,2026-01-20,Frederiksberg study room,Workshop,30,30,29
+42,Workshop: Power BI vs Tableau,2026-02-03,Frederiksberg study room,Workshop,30,30,25
+43,Online: Data storytelling,2026-02-08,Online,Online,300,300,131
+44,Talk: Data storytelling,2026-02-18,Nørrebro Library hall,Talk,80,72,52
+45,Workshop: Dashboards that people read,2026-03-07,Østerbro community house,Workshop,30,25,22
+46,Workshop: A/B testing pitfalls,2026-03-18,Østerbro community house,Workshop,30,30,29
+47,Talk: Dashboards that people read,2026-03-23,Amager culture house,Talk,80,80,57
+48,Workshop: Power BI vs Tableau,2026-04-10,Østerbro community house,Workshop,30,24,18
+49,Meetup: Cleaning messy CSVs,2026-04-16,Nørrebro Library hall,Meetup,120,113,86
+50,Talk: Cleaning messy CSVs,2026-04-16,Amager culture house,Talk,80,80,62
+51,Workshop: Power BI vs Tableau,2026-05-16,Frederiksberg study room,Workshop,30,25,19
+52,Meetup: Machine learning in production,2026-05-23,Nørrebro Library hall,Meetup,120,108,61
+53,Workshop: Data storytelling,2026-05-24,Østerbro community house,Workshop,30,30,25
+54,Workshop: Career night,2026-06-07,Frederiksberg study room,Workshop,30,30,29
+55,Online: Statistics refresher,2026-06-08,Online,Online,300,289,121
+56,Talk: Career night,2026-06-19,Nørrebro Library hall,Talk,80,80,60
+57,Workshop: Data quality checks,2026-06-25,Østerbro community house,Workshop,30,30,25
+58,Meetup: Dashboards that people read,2026-07-05,Nørrebro Library hall,Meetup,120,120,87
+59,Talk: Data storytelling,2026-07-10,Amager culture house,Talk,80,64,49
+60,Online: Data ethics,2026-07-23,Online,Online,300,300,133
+61,Talk: Forecasting with Python,2026-08-02,Amager culture house,Talk,80,80,62
+62,Meetup: Visualising bike traffic,2026-08-10,Nørrebro Library hall,Meetup,120,97,68
+63,Meetup: Open data from the municipality,2026-08-10,Vesterbro co-working space,Meetup,120,120,78
+64,Workshop: Dashboards that people read,2026-09-03,Østerbro community house,Workshop,30,30,24
+65,Talk: Machine learning in production,2026-09-03,Amager culture house,Talk,80,69,55
+66,Talk: Statistics refresher,2026-09-16,Amager culture house,Talk,80,80,50
+67,Meetup: Geospatial data of Copenhagen,2026-10-02,Vesterbro co-working space,Meetup,120,94,62

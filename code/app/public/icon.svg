@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgb(44 44 43)" stroke="rgb(44 44 43)" stroke-linecap="round" stroke-linejoin="round">
+  <!-- The app mark (src/components/brand/app-mark.tsx), for the browser tab.
+       Strokes invert in a dark browser UI; the one gold detail is the dot
+       (product/DESIGN.md → App identity: gold in the favicon only). -->
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .f { fill: rgb(230 230 230); stroke: rgb(230 230 230); }
+      .s { stroke: rgb(230 230 230); }
+    }
+  </style>
+  <path class="f" d="M12 2.75 21 7.5 12 12.25 3 7.5Z" stroke-width="1.5"/>
+  <path class="s" d="M3 12 12 16.75 21 12" fill="none" stroke-width="2.25"/>
+  <path class="s" d="M3 16.5 12 21.25 21 16.5" fill="none" stroke-width="2.25"/>
+  <circle cx="20.25" cy="3.75" r="2.5" fill="#FFC107" stroke="none"/>
+</svg>

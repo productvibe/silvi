@@ -1,0 +1,6 @@
+{
+  "name": "Reports",
+  "id": "silvi",
+  "url": "http://localhost:9923",
+  "description": "Reports on your own database: each a page of figures, written as code and read live."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "excel",
+  "label": "Excel files",
+  "group": "files",
+  "packages": { "better-sqlite3": "^13.0.3", "exceljs": "^4.4.0" },
+  "devPackages": { "@types/better-sqlite3": "^9.6.0" },
+  "data": ["data/excel/sales.xlsx"],
+  "env": [
+    {
+      "name": "EXCEL_DIR",
+      "example": "data/excel",
+      "note": "Folder of .xlsx files, from app/; each sheet is a table, <file>_<sheet>",
+      "default": "data/excel"
+    }
+  ]
+}

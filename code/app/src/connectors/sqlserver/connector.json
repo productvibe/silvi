@@ -1,0 +1,37 @@
+{
+  "id": "sqlserver",
+  "label": "SQL Server",
+  "group": "hosted",
+  "packages": { "mssql": "^12.7.4" },
+  "devPackages": { "@types/mssql": "^12.3.0" },
+  "env": [
+    {
+      "name": "SQLSERVER_HOST",
+      "example": "sql.example.com",
+      "note": "Server host"
+    },
+    {
+      "name": "SQLSERVER_PORT",
+      "example": "1433",
+      "note": "Port",
+      "default": "1433"
+    },
+    { "name": "SQLSERVER_DB", "example": "analytics", "note": "Database name" },
+    {
+      "name": "SQLSERVER_USER",
+      "example": "reports_reader",
+      "note": "A read-only login"
+    },
+    {
+      "name": "SQLSERVER_PASSWORD",
+      "example": "",
+      "note": "That login's password"
+    },
+    {
+      "name": "SQLSERVER_ENCRYPT",
+      "example": "true",
+      "note": "Encrypt the connection: true or false",
+      "default": "true"
+    }
+  ]
+}

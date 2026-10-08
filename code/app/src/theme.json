@@ -1,0 +1,32 @@
+{
+  "preset": "f0",
+  "style": "neutral",
+  "accent": "blue",
+  "tint": "blue",
+  "logo": "layers",
+  "mark": [
+    [
+      "path",
+      {
+        "d": "M12 2.75 21 7.5 12 12.25 3 7.5Z",
+        "stroke-width": "1.5"
+      }
+    ],
+    [
+      "path",
+      {
+        "d": "M3 12 12 16.75 21 12",
+        "fill": "none",
+        "stroke-width": "2.25"
+      }
+    ],
+    [
+      "path",
+      {
+        "d": "M3 16.5 12 21.25 21 16.5",
+        "fill": "none",
+        "stroke-width": "2.25"
+      }
+    ]
+  ]
+}
